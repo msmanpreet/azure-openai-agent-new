@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+httpx
+azure-ai-openai
+python-dotenv
+spacy
+en-core-web-sm
