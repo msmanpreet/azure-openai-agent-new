@@ -30,3 +30,16 @@ This project offers a chat agent that:
    uvicorn main:app --reload
    ```
 5. Test via Postman on `POST /chat` with JSON `{ "session_id":"1","message":"..." }`.
+
+
+POST http://localhost:8000/chat
+
+Body (JSON):
+
+json
+Copy
+Edit
+{
+  "session_id": "test-session",
+  "message": "Hi"
+}
